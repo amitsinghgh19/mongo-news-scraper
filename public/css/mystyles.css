@@ -70,12 +70,12 @@ body {
   width: 125px;
   margin-bottom: 20px;
   margin-left: 20px;
-  background-color: rgba(125, 12, 125, 0.75);
+  background-color: rgba(248, 8, 8, 0.733);
   border: purple;
 }
 
 .save-btn:hover, .save-btn:focus {
-  background-color: rgba(65, 0, 65, 0.746)
+  background-color:  purple;
 }
 
 .article-outer-container {
