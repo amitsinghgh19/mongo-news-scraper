@@ -90,12 +90,12 @@ function renderLibrary(data) {
 
     data.forEach(({ link, title, author, authorLink, _id, imgSrc }) => {
         let $article = $(`
-            <div class="row justify-content-center article-row">
+            <div class="row justify-content-center bg-white article-row">
 
                 <div class="col-12">
 
 
-                    <div class="article-outer-container">
+                    <div class="article-outer-container border border-dark">
 
                         <div class="library-image-container" style="background-image: url('${imgSrc}')">
                         </div>
