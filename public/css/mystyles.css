@@ -222,3 +222,18 @@ body {
   color: #FFFFFF;
   background-color: black;
 }
+
+.button {
+  color: #fff;
+  border-radius: 5px;
+  padding: 4px 40px 5px;
+  background-color:rgb(223,40,38);
+  text-decoration: none;
+  display: inline-block;
+  font-family: Montserrat,Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  position: absolute;
+  right: 0;
+}
+
