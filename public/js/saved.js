@@ -106,7 +106,7 @@ function renderLibrary(data) {
                         </div>
 
                         <div class="library-btns-container">
-                            <button type="button" class="btn btn-light comment-btn" data-id="${_id}">Add Comment</button>
+                            <button type="button" class="btn btn-info comment-btn" data-id="${_id}">Add Comment</button>
                             <button type="button" class="btn btn-danger delete-btn" data-id="${_id}">Remove From Library</button>
                         </div>
 
@@ -136,7 +136,7 @@ function renderFinalArticle(data) {
                     </div>
                 </a>
             </div>
-            <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12">
+            <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 bg-white">
                 <div class="article-box">
                     <a href="${data.link}" target="_blank" class="library-article-link"><h4>${data.title}</h4></a>
                     <a href="${data.authorLink}" target="_blank" class="library-article-link"><h5>${data.author}</h5></a>
