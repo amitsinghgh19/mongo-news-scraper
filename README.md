@@ -2,7 +2,7 @@
 ## a news scraper for the tech industry
 
 * Preview `mongo-news-scraper` LIVE on [Heroku](https://calm-lowlands-41536.herokuapp.com/) 
-* Please make sure that your browser is not blocking javascript.
+* Please make sure that your browser is not blocking javascript, `Subscribe to our newsletter` might not work if your browser is blocking javascript.
 
 ### About
 
