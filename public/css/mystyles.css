@@ -240,24 +240,36 @@ body {
 	border-radius:5px;
 	
 	animation-name: flash;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 
 	/* //Firefox 1+ */
 	-webkit-animation-name: flash;
-	-webkit-animation-duration: 1s;
+	-webkit-animation-duration: 2s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 
 	/* //Safari 3-4 */
 	-moz-animation-name: flash;
-	-moz-animation-duration: 1s;
+	-moz-animation-duration: 2s;
 	-moz-animation-timing-function: linear;
 	-moz-animation-iteration-count: infinite;
 }
 
+.button:hover{ 
+  background-color: Red;
+	color: white;
+	border: 2px solid #f44336;
+  -webkit-box-shadow: 0 0 25px #B20000;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
 .blink {
+  background-color: Red;
   border-radius: 5px;
   padding: 4px 40px 5px;
   /* background-color:rgb(245,139,30); */
@@ -288,6 +300,18 @@ body {
 	-moz-animation-timing-function: linear;
 	-moz-animation-iteration-count: infinite;
 }
+
+.blink:hover{
+  background-color: Red;
+	color: white;
+	border: 2px solid #f44336;
+  -webkit-box-shadow: 0 0 25px #B20000;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
 @keyframes flash {  
   0% { opacity: 1.0; }
   50% { opacity: 0.5; }
