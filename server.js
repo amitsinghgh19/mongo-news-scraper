@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 
 app.use(express.static("public"));
 
-
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/newsScraper";
 
