@@ -8,7 +8,7 @@
 
 * `mongo-news-scraper` is an app that allows users to scrape articles from [The Verge](https://www.theverge.com/tech/) and save their favorites into a personalized library.
 
-* The `Scrape New Tech Articles` button triggers the app to scrape the internet for new tech articles, rendering them in the browser in a user-friendly fashion. Each article comes with a `Save` button. Users can immediately read a short synopsis on each article or follow a link to read the full article.
+* The `Scrape New Tech Articles` button triggers the app to scrape the [The Verge](https://www.theverge.com/tech/) site for new tech articles, rendering them in the browser in a user-friendly fashion. Each article comes with a `Save` button. Users can immediately read a short synopsis on each article or follow a link to read the full article.
 
 * The `Save` button `on-click` will save that particular article to the database.
 
