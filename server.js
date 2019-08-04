@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.use(express.static("public"));
 
-// If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+// If deployed, use the deployed database. Otherwise use the local newsScraper database
 let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/newsScraper";
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
